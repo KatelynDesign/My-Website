@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(132, 32, 203);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: flex-start; /* Move content to the top */
+    padding-top: 20px; /* Add some space at the top */
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 530px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    text-align: center;
+    margin-left: 0px; /* Increase the left margin */
+}
+
+.card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.card ul li {
+    margin-bottom: 10px; /* Add space between each link */
+}
+
+/* Add your styles here */
